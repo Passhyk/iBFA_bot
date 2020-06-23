@@ -23,6 +23,8 @@ time.sleep(1)
 
 for line in pass_lst:	
 	time.sleep(1)
+	print("Last password tried:", line)
+	time.sleep(1)
 	password.send_keys(Keys.CONTROL,'a')
 	password.send_keys(line)
 	time.sleep(1)
