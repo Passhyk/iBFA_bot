@@ -45,5 +45,5 @@ Taken from [LICENSE](LICENSE).
 
 
 ### CHANGELOG
-- 06/23/20 *** Now you could see every pass procces in your terminal. dont forgot to kept-up-to-date cy@... 
+- 06/23/20 : Now you could see every password process in your terminal. don't forgot to kept-up-to-date! cy@... 
 -
