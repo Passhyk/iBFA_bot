@@ -6,7 +6,7 @@ This is the official and only repository of the iBFA_bot project.
 
 ### MAINTAINER
 
-- **Yurin Doctrine**, Github: [@YurinDoctrine][git-alisson]
+- **Yurin Doctrine**, Github: [@YurinDoctrine]
 
 ##### PYTHON 3 PREREQUISITES
 - pip3 *
