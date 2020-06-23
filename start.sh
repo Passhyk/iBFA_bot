@@ -20,11 +20,9 @@ command -v chromedriver > /dev/null 2>&1 || { echo >&2 "chromedriver Not found, 
 checkroot
 dependencies
 clear
-
+#time to execute bot.py
 main() {
-
-printf 'a'
-
+python3 bot.py
 
 }
 
@@ -34,7 +32,8 @@ printf "\n"
 printf 'The Author(ME) do not take any responsibilities and this script belongs to the educational purposes.\n'
 read -p $'\e[1;92mDO YOU TAKE ANY RESPONSIBILITIES y/N? \e[0m' lock
 if [[ "$lock" == "Y" || "$lock" == "y" || "$lock" == "yes" || "$lock" == "Yes" ]]; then
-printf 'Aight kiddo! :)\n' && main
+printf 'Aight kiddo! :)\n'
+printf 'BFA has began hold on!\n' && main
 fi
 if [[ "$lock" == "N" || "$lock" == "n" || "$lock" == "no" || "$lock" == "No" ]]; then
 printf "Cy@ do not look back :)\n"
