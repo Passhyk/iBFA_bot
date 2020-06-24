@@ -9,10 +9,9 @@ This is the official and only repository of the iBFA_bot project.
 - **Yurin Doctrine**, Github: [@YurinDoctrine]
 
 ##### PYTHON 3 PREREQUISITES
-- pip3 *
-- selenium *
-- urllib3 *
-- unzip
+- pip3 
+- selenium 
+- urllib3 
 ### CLONING
 
 ```sh
