@@ -14,7 +14,7 @@ dependencies() {
 command -v wget > /dev/null 2>&1 || { echo >&2 "wget Not found, installing..."; sudo apt-get install wget -y; }
 command -v unzip > /dev/null 2>&1 || { echo >&2 "unzip Not found, installing..."; sudo apt-get install unzip -y; }
 command -v google-chrome-stable > /dev/null 2>&1 || { echo >&2 "google-chrome-stable Not found, installing..."; wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -; sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list';sudo apt-get update && sudo apt-get install google-chrome-stable -y; }
-command -v chromedriver > /dev/null 2>&1 || { echo >&2 "chromedriver Not found, installing..."; wget https://chromedriver.storage.googleapis.com/84.0.4147.30/chromedriver_linux64.zip; unzip chromedriver_linux64.zip; rm -rf chromedriver_linux64.zip; sudo mv chromedriver /usr/local/bin; }
+command -v chromedriver > /dev/null 2>&1 || { echo >&2 "chromedriver Not found, installing..."; wget https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip; unzip chromedriver_linux64.zip; rm -rf chromedriver_linux64.zip; sudo mv chromedriver /usr/local/bin; }
 }
 
 checkroot
