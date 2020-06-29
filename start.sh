@@ -2,13 +2,6 @@
 #if you get any problems with that contact me via > github.com/YurinDoctrine
 #or you just google it :)
 
-checkroot() {
-if [[ "$(id -u)" -ne 0 ]]; then
-    printf "Please, run this program as root! Aborting... \n"
-    exit 1
-fi
-}
-
 
 dependencies() {
 command -v wget > /dev/null 2>&1 || { echo >&2 "wget Not found, installing..."; sudo apt-get install wget -y; }
@@ -17,7 +10,6 @@ command -v google-chrome-stable > /dev/null 2>&1 || { echo >&2 "google-chrome-st
 command -v chromedriver > /dev/null 2>&1 || { echo >&2 "chromedriver Not found, installing..."; wget https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_linux64.zip; unzip chromedriver_linux64.zip; rm -rf chromedriver_linux64.zip; sudo mv chromedriver /usr/local/bin; }
 }
 
-checkroot
 dependencies
 clear
 #time to execute bot.py

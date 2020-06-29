@@ -24,7 +24,7 @@ $ git clone https://github.com/YurinDoctrine/iBFA_bot.git
 $ cd iBFA_bot/
 $ sudo apt-get install python3-pip
 $ pip3 install -r requirements.txt
-$ sudo bash start.sh
+$ bash start.sh
 ```
 
 ## DISCLAIMER
@@ -44,5 +44,5 @@ Taken from [LICENSE](LICENSE).
 
 
 ### CHANGELOG
+- 06/30/20 : Important fixes, removed old-fashion functionalities... do not forgot to kept-up-to-date! <3
 - 06/23/20 : Now you could see every password process in your terminal. don't forgot to kept-up-to-date! cy@... 
--
