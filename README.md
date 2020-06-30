@@ -1,6 +1,6 @@
 # iBFA_bot
 
-****Imagine a bot which are: BFA[[BRUTE FORCE ATTACK]]****
+****Imagine a bot which are: BFA[BRUTE FORCE ATTACK]****
 
 **ONLY DOWNLOAD IT HERE, DO NOT TRUST IN OTHER PLACES.**
 
@@ -8,7 +8,7 @@ This is the official and only repository of the iBFA_bot project.
 
 ### MAINTAINER
 
-- **Yurin Doctrine**, Github: [@YurinDoctrine]
+- [**Yurin Doctrine**], Github: [@YurinDoctrine]
 
 ##### PYTHON 3 PREREQUISITES
 - pip3 
