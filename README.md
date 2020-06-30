@@ -1,6 +1,6 @@
 # iBFA_bot
 
-****Imagine a bot which are ' BFA(brute force attack) '****
+****Imagine a bot which are: BFA[[BRUTE FORCE ATTACK]]****
 
 **ONLY DOWNLOAD IT HERE, DO NOT TRUST IN OTHER PLACES.**
 
