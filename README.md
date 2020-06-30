@@ -1,7 +1,9 @@
 # iBFA_bot
-Imagine a bot which are ' BFA(brute force attack) '.
+
+****Imagine a bot which are ' BFA(brute force attack) '****
+
 **ONLY DOWNLOAD IT HERE, DO NOT TRUST IN OTHER PLACES.**
-*NOT TESTED IN WINDOWS'X' (PROBABLY WORK FINE)*
+
 This is the official and only repository of the iBFA_bot project.
 
 ### MAINTAINER
