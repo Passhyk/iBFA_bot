@@ -46,5 +46,6 @@ Taken from [LICENSE](LICENSE).
 
 
 ### CHANGELOG
+- 06/30\2/20 : re flushed Aesthetic
 - 06/30/20 : Important fixes, removed old-fashion functionalities... do not forgot to kept-up-to-date! <3
 - 06/23/20 : Now you could see every password process in your terminal. don't forgot to kept-up-to-date! cy@... 
