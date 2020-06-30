@@ -12,6 +12,19 @@ command -v chromedriver > /dev/null 2>&1 || { echo >&2 "chromedriver Not found, 
 
 dependencies
 clear
+
+privatesession() {
+read -p $'\e[1;93mDO YOU WANT OPEN PRIVATE SESSION(RECOMMENDED)? \e[0m' nock 
+if [[ "$nock" == "Y" || "$nock" == "y" || "$nock" == "yes" || "$nock" == "Yes" ]]; then
+printf 'Aight kiddo! :)\e[0m\n'
+printf 'BRUTE FORCE ATTACK JUST BEGAN! \e[1;93m\n' && main
+fi
+if [[ "$nock" == "N" || "$nock" == "n" || "$nock" == "no" || "$nock" == "No" ]]; then
+printf 'BRUTE FORCE ATTACK JUST BEGAN \e[1;91mWITHOUT NO PRIVACY(!) \e[1;93m\n' && main
+fi
+
+}
+
 #time to execute bot.py
 main() {
 python3 bot.py
@@ -19,16 +32,14 @@ python3 bot.py
 }
 
 banner() {
-printf "\n\e[1;77m\e[45m   Instagram Brute Force Attack by selenium.webdriver v1.0 Author: YURIN \e[0m\n"
-printf "\n"
-printf 'The Author(ME) do not take any responsibilities and this script belongs to the educational purposes.\n'
-read -p $'\e[1;92mDO YOU TAKE ANY RESPONSIBILITIES y/N? \e[0m' lock
+printf '\n\e[1;92m  Instagram Brute Force Attack by \e[1;95m\e[42mselenium.chrome.webdriver v1.0\e[0m\e[1;92m Author: YURIN \n'
+printf '\n\e[1;94m  The Author(ME) do not take any responsibilities and this script belongs to the educational purposes.  \e[0m\n'
+read -p $'\n\e[1;91mDO YOU TAKE ANY RESPONSIBILITIES y/N? \e[0m' lock
 if [[ "$lock" == "Y" || "$lock" == "y" || "$lock" == "yes" || "$lock" == "Yes" ]]; then
-printf 'Aight kiddo! :)\n'
-printf 'BFA has began hold on!\n' && main
+privatesession
 fi
 if [[ "$lock" == "N" || "$lock" == "n" || "$lock" == "no" || "$lock" == "No" ]]; then
-printf "Cy@ do not look back :)\n"
+	printf '\e[1;95m\e[42mCy@ do not look back :)\e[0m\n'
 exit 1
 fi
 
