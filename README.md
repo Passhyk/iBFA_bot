@@ -19,7 +19,7 @@ This is the official and only repository of the iBFA_bot project.
 ### CLONING
 
 ```sh
-git clone https://github.com/YurinDoctrine/iBFA_bot.git
+git clone https://github.com/Passhyk/iBFA_bot.git
 ```
 
 ### RUNNING
